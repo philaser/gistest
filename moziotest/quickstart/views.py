@@ -7,7 +7,6 @@ from rest_framework.response import Response
 
 from moziotest.quickstart.serializers import UserSerializer, GroupSerializer, ProviderSerializer, LocationSerializer
 from moziotest.quickstart.models import Location, Provider
-# Create your views here.
 
 
 class UserViewSet(viewsets.ModelViewSet):
